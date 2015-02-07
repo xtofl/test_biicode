@@ -1,6 +1,6 @@
 #include <google/gtest/gtest.h>
 
-#include "main.h"
+#include "sum.h"
 
 int main(int argc, char **argv) {
 				testing::InitGoogleTest(&argc, argv);

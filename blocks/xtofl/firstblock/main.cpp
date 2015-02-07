@@ -9,12 +9,6 @@
 
 #include <iostream>
 
-int main2() {
+int main() {
   std::cout << "Hello world!\n";
-}
-
-namespace xtofl {
-				int sum(int a, int b) {
-								return 0;
-				}
 }
