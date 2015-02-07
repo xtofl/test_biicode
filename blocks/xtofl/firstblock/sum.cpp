@@ -2,6 +2,8 @@
 
 namespace xtofl {
 				int sum(int a, int b) {
-								return 0;
+								a %= 2;
+								b %= 2;
+								return (a + b) % 2;
 				}
 }

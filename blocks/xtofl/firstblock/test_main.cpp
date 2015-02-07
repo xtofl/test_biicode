@@ -12,6 +12,7 @@ namespace xtofl { namespace test {
 TEST(Main, sumOfOneAndOneIsZero)
 {
 				EXPECT_EQ(0, sum(1, 1));
+				EXPECT_EQ(1, sum(0, 1));
 }
 
 } }
